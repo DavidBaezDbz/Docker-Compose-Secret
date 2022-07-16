@@ -59,3 +59,9 @@ volumes:
     db_data: {}
     wordpress_data: {}
 ```
+
+Is no the best solution, but it's work.
+
+Remenber add **_FILE** to environment variable.
+
+Thank [ronaldb/docker-compose.yml](ronaldb/docker-compose.yml)
