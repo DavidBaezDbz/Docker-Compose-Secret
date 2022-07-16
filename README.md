@@ -1,5 +1,7 @@
 # Docker-Compose-Secret
-Create a docker-compose with secrets withou swarm
+
+
+Create a **docker-compose** with secrets **without** swarm
 
 
 ```Yml
@@ -59,6 +61,8 @@ volumes:
     db_data: {}
     wordpress_data: {}
 ```
+Run ```docker-compose up -d --build db wordpress```
+
 
 Is no the best solution, but it's work.
 
